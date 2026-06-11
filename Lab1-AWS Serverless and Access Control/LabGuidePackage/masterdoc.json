@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "AWS Serverless Integration Lab",
+    "Language": "English",
+    "Files": [
+      { "RawFilePath": "https://raw.githubusercontent.com/monikan-spektra/microland/main/labguide/gettingstarted.md", "Order": 1 },
+      { "RawFilePath": "https://raw.githubusercontent.com/monikan-spektra/microland/main/labguide/lab1.md", "Order": 2 },
+      { "RawFilePath": "https://raw.githubusercontent.com/monikan-spektra/microland/main/labguide/lab2.md", "Order": 3 },
+      { "RawFilePath": "https://raw.githubusercontent.com/monikan-spektra/microland/main/labguide/lab3.md", "Order": 4 }
+    ]
+  }
+]

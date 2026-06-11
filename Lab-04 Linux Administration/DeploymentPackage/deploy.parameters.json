@@ -1,0 +1,47 @@
+{
+    "$schema": "",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "CloudLabsDeploymentID": {
+            "value": "GET-DEPLOYMENT-ID"
+        },
+        "CheckAcknowledgement": {
+            "value": "TRUE"
+        },
+        "vpcCidr": {
+            "value": "10.10.0.0/16"
+        },
+        "subnetCidr": {
+            "value": "10.10.0.0/24"
+        },
+        "clgclusterSubnetCidr": {
+            "value": "10.10.1.0/24"
+        },
+        "AmazonECSTaskExecutionRolePolicy": {
+            "value": "arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy"
+        },
+        "VMUserName": {
+            "value": "labuser"
+        },
+        "VMPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "AccessKey": {
+            "value": "GET-SERVICEPRINCIPAL-APPLICATION-ID"
+        },
+        "SecretKey": {
+            "value": "GET-SERVICEPRINCIPAL-SECRET"
+        },
+        "trainerUserName":
+        {
+            "value": "trainer"
+        },
+        "trainerUserPassword":
+        {
+            "value": "Password.1!!"
+        },
+        "ODLID":{
+            "value": "GET-ODL-ID"
+        }
+    }
+}

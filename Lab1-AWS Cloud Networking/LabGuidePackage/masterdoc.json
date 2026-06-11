@@ -1,0 +1,24 @@
+[
+    {
+        "Name": "AWS, AWS devops, Github, jenkins, git, terraform, cloud formaiton template",
+        "Language": "English",
+        "Files": [
+             {
+                "RawFilePath": "https://raw.githubusercontent.com/syedspektra/microland/main/Getting%20Started%20Page.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/syedspektra/microland/refs/heads/main/S1%20updated.md",
+                "Order": 2
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/syedspektra/microland/refs/heads/main/S2%20updated.md",
+                "Order": 3
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/syedspektra/microland/refs/heads/main/S3%20updated.md",
+                "Order": 4
+            }    
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+{
+  "Version": "1.0.0",
+  "Domain": "MongoDB-NoSQL",
+  "Scenarios": [
+    {"ScenarioId": "S1", "Title": "MongoDB Replica Set", "Tasks": 1},
+    {"ScenarioId": "S2", "Title": "Backup & Recovery", "Tasks": 1},
+    {"ScenarioId": "S3", "Title": "Query Profiling", "Tasks": 1},
+    {"ScenarioId": "S4", "Title": "Cassandra Schema", "Tasks": 1},
+    {"ScenarioId": "S5", "Title": "Redis Caching", "Tasks": 1}
+  ],
+  "DBRoles": {
+    "admin": "Full permissions on all databases",
+    "dba": ["Create indexes", "Backup", "Monitor"],
+    "developer": ["Read", "Write", "Query"]
+  }
+}

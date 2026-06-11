@@ -1,0 +1,6 @@
+{
+  "vmName": "AzureVM001",
+  "vmSize": "Standard_B2s",
+  "location": "eastus",
+  "adminUsername": "azureuser"
+}

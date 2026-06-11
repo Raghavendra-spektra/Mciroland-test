@@ -1,0 +1,16 @@
+{
+  "Version": "1.0.0",
+  "Domain": "AWS-CloudNetworking",
+  "Scenarios": [
+    {"ScenarioId": "S1", "Title": "Design Custom VPC", "Tasks": 1},
+    {"ScenarioId": "S2", "Title": "Deploy MySQL RDS", "Tasks": 1},
+    {"ScenarioId": "S3", "Title": "Configure Auto Scaling", "Tasks": 1},
+    {"ScenarioId": "S4", "Title": "Create S3 Bucket", "Tasks": 1},
+    {"ScenarioId": "S5", "Title": "CloudFormation Template", "Tasks": 1}
+  ],
+  "IAMRoles": {
+    "CloudNetworkingAdmin": ["ec2:*", "rds:*", "s3:*", "autoscaling:*", "cloudformation:*"],
+    "CloudNetworkingUser": ["ec2:DescribeInstances", "rds:DescribeDBInstances", "s3:ListBucket"],
+    "CloudNetworkingViewer": ["ec2:Describe*", "rds:Describe*", "s3:GetObject"]
+  }
+}

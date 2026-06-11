@@ -1,0 +1,6 @@
+{
+  "InstanceType": "t3.xlarge",
+  "MongoVersion": "5.0",
+  "CassandraVersion": "4.0",
+  "RedisVersion": "6.2"
+}

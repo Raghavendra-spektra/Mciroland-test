@@ -1,0 +1,16 @@
+{
+  "Version": "1.0.0",
+  "Domain": "Linux-Administration",
+  "Scenarios": [
+    {"ScenarioId": "S1", "Title": "Extend Logical Volume", "Tasks": 1},
+    {"ScenarioId": "S2", "Title": "Configure Pacemaker HA", "Tasks": 1},
+    {"ScenarioId": "S3", "Title": "Manage Disk Space", "Tasks": 1},
+    {"ScenarioId": "S4", "Title": "Configure SELinux", "Tasks": 1},
+    {"ScenarioId": "S5", "Title": "Network Troubleshooting", "Tasks": 1}
+  ],
+  "LinuxRoles": {
+    "root": "All permissions",
+    "sysadmin": ["lvm", "pacemaker", "semanage", "firewall-cmd"],
+    "viewer": ["ls", "cat", "grep", "ifconfig"]
+  }
+}

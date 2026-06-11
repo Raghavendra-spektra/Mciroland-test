@@ -1,0 +1,17 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "MongoDB & NoSQL Lab - MongoDB, Cassandra, Redis Instances",
+  "Resources": {
+    "SecurityGroup": {
+      "Type": "AWS::EC2::SecurityGroup",
+      "Properties": {
+        "GroupDescription": "NoSQL Database Lab Security Group",
+        "SecurityGroupIngress": [
+          {"IpProtocol": "tcp", "FromPort": 27017, "ToPort": 27017, "CidrIp": "0.0.0.0/0"},
+          {"IpProtocol": "tcp", "FromPort": 9042, "ToPort": 9042, "CidrIp": "0.0.0.0/0"},
+          {"IpProtocol": "tcp", "FromPort": 6379, "ToPort": 6379, "CidrIp": "0.0.0.0/0"}
+        ]
+      }
+    }
+  }
+}

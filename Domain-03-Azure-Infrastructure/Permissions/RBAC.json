@@ -1,0 +1,16 @@
+{
+  "Version": "1.0.0",
+  "Domain": "Azure-Infrastructure",
+  "Scenarios": [
+    {"ScenarioId": "S1", "Title": "Deploy ARM Templates", "Tasks": 1},
+    {"ScenarioId": "S2", "Title": "Secure SSH Access", "Tasks": 1},
+    {"ScenarioId": "S3", "Title": "Deploy Web Server", "Tasks": 1},
+    {"ScenarioId": "S4", "Title": "Automate VM Operations", "Tasks": 1},
+    {"ScenarioId": "S5", "Title": "Configure VNet", "Tasks": 1}
+  ],
+  "AzureRoles": {
+    "AzureInfraAdmin": ["Microsoft.Compute/*", "Microsoft.Network/*", "Microsoft.Storage/*"],
+    "AzureInfraContributor": ["Microsoft.Compute/virtualMachines/read", "Microsoft.Network/virtualNetworks/read"],
+    "AzureInfraReader": ["*/read"]
+  }
+}
